@@ -1,4 +1,3 @@
-
 dice <- sample(1:6, 10, replace = T) + sample(1:6, 10, replace = T)
 hist(dice)
 dice2 <- sample(1:6, 10^2, replace = T) + sample(1:6, 10^2, replace = T)
@@ -24,4 +23,4 @@ quantile*100
 
 
 1-pnorm(1,mean=3,sd=sqrt(5))
-
+pnorm(-0.8944)
